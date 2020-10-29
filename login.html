@@ -22,14 +22,14 @@
         <div class="login">
             <!-- 标题 -->
             <div class="title"></div>
-            <form class="layui-form" action="">
+            <form class="layui-form" action="" id="form_login">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <input type="text" name="username" required lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
                 </div>
                 <!-- 密码 -->
                 <div class="layui-form-item">
-                    <input type="text" name="password" required lay-verify="required|pwd" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    <input type="text" name="password" required lay-verify="required|pwd" placeholder="请输入密码" autocomplete="off" class="layui-input">
                 </div>
                 <!-- 登录 -->
                 <div class="layui-form-item">
@@ -76,7 +76,9 @@
         </div>
     </div>
     <script src="/assets/lib/layui/layui.all.js"></script>
-    <script src="/assets/lib/layui/layui.js"></script>
+    <script src="/assets/lib/jquery.js"></script>
+
+    <script src="/assets/js/baseApi.js"></script>
     <script src="/assets/js/login.js"></script>
 </body>
 
